@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-11 14:02:59.845940",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customers",
+  "order_date",
+  "delevry_date",
+  "column_break_llzj",
+  "total_amount",
+  "column_break_rtdk"
+ ],
+ "fields": [
+  {
+   "fieldname": "customers",
+   "fieldtype": "Data",
+   "label": "Customers"
+  },
+  {
+   "fieldname": "order_date",
+   "fieldtype": "Date",
+   "label": "Order Date"
+  },
+  {
+   "fieldname": "delevry_date",
+   "fieldtype": "Date",
+   "label": "Delevry Date"
+  },
+  {
+   "fieldname": "column_break_llzj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rtdk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-11 14:48:03.547854",
+ "modified_by": "Administrator",
+ "module": "app furniture frappe",
+ "name": "sales orders",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

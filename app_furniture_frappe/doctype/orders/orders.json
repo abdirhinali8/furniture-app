@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-11 10:53:36.418031",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "order_name",
+  "order_date",
+  "delevry_date",
+  "status",
+  "section_break_flrb",
+  "order_table_column",
+  "order_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer ",
+   "options": "Customers"
+  },
+  {
+   "fieldname": "order_name",
+   "fieldtype": "Data",
+   "label": "Order Name "
+  },
+  {
+   "fieldname": "order_date",
+   "fieldtype": "Data",
+   "label": "Order Date"
+  },
+  {
+   "fieldname": "delevry_date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nPending\nConfirmed\nDelevry\nCancelled"
+  },
+  {
+   "fieldname": "section_break_flrb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "order_table_column",
+   "fieldtype": "Column Break",
+   "label": "Order Table"
+  },
+  {
+   "fieldname": "order_table",
+   "fieldtype": "Table",
+   "label": "Order Table",
+   "options": "Order Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-11 11:59:30.745114",
+ "modified_by": "Administrator",
+ "module": "app furniture frappe",
+ "name": "Orders",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

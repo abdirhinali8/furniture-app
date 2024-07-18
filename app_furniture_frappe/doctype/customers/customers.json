@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CUSTOMER-.##### ",
+ "creation": "2024-07-11 10:50:53.947940",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "cudtomer_name",
+  "phone_number",
+  "information",
+  "adress"
+ ],
+ "fields": [
+  {
+   "fieldname": "cudtomer_name",
+   "fieldtype": "Data",
+   "label": "Cudtomer Name"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "information",
+   "fieldtype": "Data",
+   "label": "Information"
+  },
+  {
+   "fieldname": "adress",
+   "fieldtype": "Data",
+   "label": "Adress"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-17 11:56:59.408933",
+ "modified_by": "Administrator",
+ "module": "app furniture frappe",
+ "name": "Customers",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
